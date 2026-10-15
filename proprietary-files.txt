@@ -1,0 +1,11 @@
+# zenltexx (Galaxy S6 edge+, SM-G928F) model specific blobs, on top of
+# noblelte-common/proprietary-files.txt (Mali GPU + Vulkan HAL, camera, GPS, sensors,
+# fingerprint, BCM4359 Wi-Fi/BT firmware, clearwater audio are shared with the Note5).
+
+# Radio: Shannon 333 modem RIL
+lib/libsec-ril.so
+lib64/libsec-ril.so
+
+# Samsung native feature flags read by the RIL
+lib/libsecnativefeature.so
+lib64/libsecnativefeature.so

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- KiroOS: 4 GB RAM with 2 GB zram: permissive, the killer starts 36 MB later on the largest bucket (others scaled) so more apps stay resident -->
+    <integer name="config_lowMemoryKillerMinFreeKbytesAdjust">-36864</integer>
+</resources>
